@@ -9,16 +9,114 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- daisyUI link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.8.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <!-- Tailwind customization -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                    fontFamily: {
+                        garamond: 'EB Garamond, serif',
+                        poppin: 'Poppins, sans-serif',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google fonts EB Garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <!-- Google fonts Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
 </head>
+<style>
+    p {
+        font-family: poppin;
+        color: #707070;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-weight: 900;
+        font-family: garamond;
+        color: #414040;
+    }
+</style>
 
 <body>
     <!-- header section -->
     <header>
-        <h2 class="text-7xl font-bold">Welcome to Legal Solution</h2>
     </header>
     <!-- main section -->
     <main>
+        <!-- FAQ section -->
 
+        <section class=" w-3/4 mx-auto my-32 text-center">
+            <h2 class="font-extrabold text-4xl">Frequently Asked Any Questions</h2>
+            <p class="md:w-1/2 mx-auto my-8">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour.
+            </p>
+            <div class="flex flex-col-reverse md:flex-row items-center gap-8">
+                <div class="md:w-1/2">
+                    <div class="collapse collapse-plus bg-base-200 mb-6">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">
+                            1. Are application fee waivers available?
+                        </div>
+                        <div class="collapse-content">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered
+                                alteration in some form, by injected humour, . </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 mb-6">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                            2. Are application fee waivers available?
+                        </div>
+                        <div class="collapse-content">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered
+                                alteration in some form, by injected humour, . </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 mb-6">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                            3. Are application fee waivers available?
+                        </div>
+                        <div class="collapse-content">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered
+                                alteration in some form, by injected humour, . </p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 mb-6">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                            4. Are application fee waivers available?
+                        </div>
+                        <div class="collapse-content">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered
+                                alteration in some form, by injected humour, . </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="images/faq.png" alt="">
+                </div>
+            </div>
+        </section>
     </main>
     <!-- footer section -->
     <footer>
