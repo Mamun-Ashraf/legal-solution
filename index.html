@@ -40,18 +40,9 @@
         font-family: poppin;
         color: #707070;
     }
-
-    h1,
-    h2,
-    h3,
-    h4 {
-        font-weight: 900;
-        font-family: garamond;
-        color: #414040;
-    }
 </style>
 
-<body>
+<body class="font-garamond">
     <!-- header section -->
     <header>
     </header>
@@ -60,7 +51,7 @@
         <!-- FAQ section -->
 
         <section class=" w-3/4 mx-auto my-32 text-center">
-            <h2 class="font-extrabold text-4xl">Frequently Asked Any Questions</h2>
+            <h3 class="font-extrabold text-4xl">Frequently Asked Any Questions</h3>
             <p class="md:w-1/2 mx-auto my-8">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                 alteration in some form, by injected humour.
@@ -114,6 +105,55 @@
                 </div>
                 <div class="md:w-1/2">
                     <img src="images/faq.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class=" w-3/4 mx-auto my-32 text-center">
+            <h3 class="font-extrabold text-4xl">Contact With Us</h3>
+            <p class="md:w-1/2 mx-auto my-8">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour.
+            </p>
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0">
+                    <div
+                        class="bg-gray-100 px-12 py-10 flex flex-col justify-center items-center md:border-r md:border-b">
+                        <img src="images/location.png" alt="">
+                        <h4 class="font-extrabold text-2xl my-2">Address</h4>
+                        <p>A108 Adam Street, <br>
+                            New York, NY 535022</p>
+                    </div>
+                    <div class="bg-gray-100 px-12 py-10 flex flex-col justify-center items-center md:border-b">
+                        <img src="images/call.png" alt="">
+                        <h4 class="font-extrabold text-2xl my-2">Call Us</h4>
+                        <p>+88 01750 00 00 00 <br>+88 01750 00 00 00</p>
+                    </div>
+                    <div class="bg-gray-100 px-12 py-10 flex flex-col justify-center items-center md:border-r">
+                        <img src="images/email.png" alt="">
+                        <h4 class="font-extrabold text-2xl my-2">Email Us</h4>
+                        <p>info@gmail.com <br>
+                            info@gmail.com</p>
+                    </div>
+                    <div class="bg-gray-100 px-12 py-10 flex flex-col justify-center items-center">
+                        <img src="images/time.png" alt="">
+                        <h4 class="font-extrabold text-2xl my-2">Working Hours</h4>
+                        <p>Mon-Fri: 9AM to 5PM <br>Sunday: 9AM to 1 PM</p>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <form class="flex flex-col gap-3">
+                        <input type="text" name="name" id="" placeholder="Your Name" class="bg-gray-100 rounded-md p-3">
+                        <input type="email" name="email" id="" placeholder="Your Email"
+                            class="bg-gray-100 rounded-md p-3">
+                        <input type="text" name="Subject" id="" placeholder="Subject"
+                            class="bg-gray-100 rounded-md p-3">
+                        <textarea name="text" id="" cols="30" rows="7" placeholder="Your Message"
+                            class="bg-gray-100 rounded-md p-3"></textarea>
+                        <button type="submit" class="bg-[#B68C5A] py-3 rounded-md text-white font-semibold text-xl">Send
+                            Message</button>
+                    </form>
                 </div>
             </div>
         </section>
