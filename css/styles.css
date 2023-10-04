@@ -1,0 +1,22 @@
+/* Google fonts Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Google fonts EB Garamond */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins&display=swap');
+
+p {
+    font-family: poppin;
+    color: #707070;
+}
+
+.banner-bg {
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+@media screen and (max-width:639px) {
+    .banner-bg {
+        background-size: cover;
+    }
+}
