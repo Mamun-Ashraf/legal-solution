@@ -15,6 +15,13 @@ p {
     background-position: center center;
 }
 
+.client-bg {
+    background-image: url('../images/slider-1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
 @media screen and (max-width:639px) {
     .banner-bg {
         background-size: cover;
